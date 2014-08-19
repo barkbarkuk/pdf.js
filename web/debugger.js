@@ -211,6 +211,7 @@ var StepperManager = (function StepperManagerClosure() {
     },
     selectStepper: function selectStepper(pageIndex, selectPanel) {
       var i;
+      pageIndex = +pageIndex;
       if (selectPanel) {
         this.manager.selectPanel(this);
       }
